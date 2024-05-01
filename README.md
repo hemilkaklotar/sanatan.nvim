@@ -1,0 +1,1 @@
+# sanatan.nvim
