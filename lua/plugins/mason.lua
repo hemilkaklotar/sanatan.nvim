@@ -1,0 +1,27 @@
+return {
+  "williamboman/mason.nvim",
+  opts = {
+    ensure_installed = {
+      "lua-language-server",
+      "stylua",
+      "html-lsp",
+      "css-lsp",
+      "prettierd",
+      "eslint_d",
+      "pyright",
+      "rust-analyzer",
+      "gopls",
+      "mypy",
+      "ruff",
+      "black",
+      "isort",
+      "gofmt",
+      "golangci-lint",
+      "shellcheck",
+      "yamllint",
+      "typescript-language-server",
+      "dockerfile-language-server",
+      "tailwindcss-language-server",
+    },
+  },
+}

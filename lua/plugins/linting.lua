@@ -13,7 +13,6 @@ return {
       typescriptreact = { "eslint_d" },
       yaml = { "yamllint" },
       markdown = { "markdownlint" },
-      sh = { "shellcheck" },
       python = { "ruff", "mypy" },
       go = { "golangci-lint" },
       rust = { "rustc" },
@@ -23,7 +22,7 @@ return {
 
     vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "InsertLeave", "TextChanged" }, {
       group = lint_augroup,
-      pattern = { "*.js", "*.jsx", "*.ts", "*.tsx", "*.yaml", "*.sh", "*.py", "*.go" },
+      pattern = { "*.js", "*.jsx", "*.ts", "*.tsx", "*.yaml", "*.py", "*.go" },
       callback = function()
         lint.try_lint()
       end,
