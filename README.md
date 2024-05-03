@@ -17,7 +17,7 @@ This is config of neovim with [NvChad](https://github.com/NvChad/NvChad)
 
 ## Installation
 
-### Linux
+### Linux / Mac OS (Unix)
 
 - Install config in ~/.config/nvim
   ```bash
