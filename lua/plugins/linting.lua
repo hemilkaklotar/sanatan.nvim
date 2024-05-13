@@ -14,7 +14,7 @@ return {
       yaml = { "yamllint" },
       markdown = { "markdownlint" },
       python = { "ruff", "mypy" },
-      go = { "golangci-lint" },
+      go = { "golangcilint" },
       rust = { "rustc" },
     }
 
