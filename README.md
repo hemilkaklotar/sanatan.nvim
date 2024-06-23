@@ -23,6 +23,10 @@ This is config of neovim with [NvChad](https://github.com/NvChad/NvChad)
   ```bash
   git clone https://github.com/hemilkaklotar/sanatan.nvim.git ~/.config/nvim && nvim
   ```
+- Install eslint language server from vscode
+  ```bash
+  npm i -g vscode-langservers-extracted
+  ```
 
 ### Windows
 

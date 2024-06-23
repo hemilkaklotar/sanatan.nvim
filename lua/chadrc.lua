@@ -9,8 +9,8 @@ M.ui = {
   hl_add = {},
   hl_override = {},
   changed_themes = {},
-  theme_toggle = { "monekai", "one_light" },
-  theme = "monekai", -- default theme
+  theme_toggle = { "catppuccin", "one_light" },
+  theme = "catppuccin", -- default theme
   transparency = true,
 
   cmp = {
